@@ -1,0 +1,19 @@
+label {
+  font-family: var(--type-paragraph);
+  font-weight: var(--font-weight-regular);
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  border-radius: 4px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--input-border);
+  font-family: var(--type-paragraph);
+  font-size: 1rem;
+  padding: 6px 10px;
+}
+
+textarea {
+  resize: vertical;
+}
