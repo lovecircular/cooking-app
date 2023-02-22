@@ -3,8 +3,6 @@ import RecipeList, {
 } from "../../components/RecipeList/RecipeList";
 import { useFetch } from "../../hooks/useFetch";
 
-import "./HomePage.css";
-
 export default function HomePage() {
   const { data, error } = useFetch<Recipe[]>(process.env.REACT_APP_DB_URL);
 

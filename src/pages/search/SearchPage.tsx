@@ -28,7 +28,7 @@ export default function SearchPage() {
 
   return (
     <>
-      <h2 className="page-title">Recipes including "{query}"</h2>
+      <h2>Recipes including "{query}"</h2>
       {/* Only render the recipe list if there is one or more recipes */}
       {data.length >= 1 ? (
         <RecipeList recipes={data} />
